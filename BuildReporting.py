@@ -149,10 +149,7 @@ class TFSbuild:
             if failedby:
                 self.FailedByGraph(failedby,path)
          
-#-------------------------------------------------------------------------------------------
-# bsimethod                                     Maha Nasir    06/2018
-#-------------------------------------------------------------------------------------------
-#Entry point of script
+
 parser = argparse.ArgumentParser()
 
 parser.add_argument("--userName", help="UserName for logging", required=True)
